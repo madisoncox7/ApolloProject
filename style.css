@@ -1,0 +1,85 @@
+/* This is a CSS comment. Notice that CSS comments are
+enclosed by different characters than HTML comments. */
+
+/* CSS allows you to give your page style (colors, shapes, fonts, etc.)
+You can apply CSS elements to entire HTML classes.*/
+* {
+
+    box-sizing: border-box;
+}
+
+/*body{
+background-color:black;
+
+}*/
+
+body {
+  text-align: center;
+  font-family: verdana;
+  background-color: black;
+
+}
+h1 {
+  text-shadow: 5px 2.5px #153972;
+  letter-spacing: 5px;
+  color: white;
+  font-size: 50px;
+
+}
+.container {
+  max-width: 80vw;
+  margin: 0 auto;
+}
+
+.smile{
+  max-width: 50%;
+}
+.resize {
+max-width: 100%;
+
+}
+.hero{
+  max-width: 45%;
+  margin: 0 auto;
+}
+.section{
+  display: flex;
+
+}
+.text{
+  flex: 0 0 57%;
+  padding-right: 2vw;
+}
+.image{
+  flex: 1 0 43%
+}
+
+  video.labnol,
+  img.labnol {
+    max-width: 120%;
+    width: 120% !important;
+    height: auto !important;
+
+  }
+.icon {
+padding-right: 10px;
+width: 28px;
+}
+.real {
+  color: white;
+  text-shadow: 5px 2.5px #63480f;
+}
+.header{
+  color: white;
+
+
+}
+.text{
+  color: white;
+}
+.paragraph {
+ color: #c0c2c4;
+}
+.footer {
+  color: white;
+}
